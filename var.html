@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="black-background">
+        <div class="white-background">
+            <p>로그인하세요</p>
+
+            <form action="login.php">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email" id="email">
+                    <p id="email-alert">이메일이 빈칸입니다.</p>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" id="psw">
+                  <p id="psw-alert">비밀번호가 빈칸입니다.</p>
+                </div>
+                <button type="submit" class="btn btn-primary">전송</button>
+              </form>
+            <button class="btn btn-danger" id="close">닫기</a>
+        </div>
+    </div>
+
+    <div class="nav-menu">
+        <h4 style="margin: 0">Sky Studio</h4>
+        <a id="nav-sub-button">Products</a>
+    </div>
+
+    <ul class="list-group nav-sub">
+        <li class="list-group-item">An Sky</li>
+        <li class="list-group-item">A second Sky</li>
+        <li class="list-group-item">A third Sky</li>
+      </ul>
+
+    <div class="jumbotron main-background">
+        <h1 class="display-4">Sky Studio</h1>
+        <p class="lead">This is a simple hero unit, a simple
+            jumbotron-style component for calling extra attention to
+            featured content or information.
+        </p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to
+            space content out within the larger container.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#"
+        role="button" id="login">Log In</a>
+        </div>
+
+    <script>
+        var 이메일안내창 = $('#email-alert');
+
+        $('form').on('submit', function(e) { //폼의 전송을 막는 경우 : function(e) e.preventDefault();
+                if ($('#email').val() == '') {
+                        e.preventDefault();
+                        이메일안내창.show(); //변수에 담아 쓰는 것이 속도가 더 빠름
+                }
+                if($('#psw').val() == '') {
+                    e.preventDefault();
+                    $('#psw-alert').show();
+                }
+                var 이름 = 'John smith elliet brown'; //변수 : 자료를 임시로 저장
+                var 나이 = 20; //선언과 할당을 동시에 진행
+                나이;
+            });
+
+        var 이름; //전역변수    
+        console.log(나이);
+       
+        
+        let 나이 = 20; //최근 변화, 재선언이 불가능한 변수, 재할당 가능
+        const 나이 = 20; //재선언이 불가능한 변수, 재할당 불가능
+
+        /*[변수]
+        선언 ex) var 나이
+        할당 ex) 나이 = 20;
+                 나이 = 21; (여러 번 가능, 값이 자유롭게 변경 가능)
+        범위 ex)함수 안에서만 쓰임, 일반적으로 function 내부
+        
+        let, const 변수 : 범위가 {}
+        var 변수 : 범위가 function()
+        */
+
+    </script>
+</body>
+</html>

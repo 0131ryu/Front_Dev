@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(1+3);
+
+        var 예금액 = 60000;
+        var 미래예금액 = 0;
+
+        //예금액이 5만원 미만 0.15, 5만원 이상 0.2
+        //예금액이라는 변수에 60000원 넣으면
+        //86400원이 출력되야 함(2년 만기)
+
+        if(예금액 >= 50000) {   
+            미래예금액 = 예금액*(1.2*1.2);
+        } else if(예금액 < 50000) {
+            미래예금액 = 예금액*(1.15^1.15);
+        }
+        console.log(미래예금액);
+
+        //총 2번 리필 가능, 2/3만큼 리필
+
+        var 첫커피양 = 360;
+        var 마신커피1 = 0;
+        //첫커피양에 360을 집어넣으면 콘솔창에 마신커피를 출력했을 때 
+        //760이 출력되어야합니다. (360 + 240 + 160)
+        
+        //1번째 방법
+        var 두번째커피양 = 첫커피양*(2/3);
+        var 세번째커피양 = 두번째커피양*(2/3);
+
+        마신커피1 = 첫커피양 + 두번째커피양 + 세번째커피양;
+
+        console.log(마신커피1);
+
+        //2번째 방법
+        var 마신커피2 = 0;
+        var 리필양 = (첫커피양 * 2/3);
+        마신커피2 = 첫커피양 + 리필양;
+
+        리필양 = (리필양 * 2/3);
+        마신커피2 = 마신커피2 + 리필양;
+
+        console.log(마신커피2);
+        
+    </script>
+</body>
+</html>
