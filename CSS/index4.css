@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/shoes.jpg");
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+}
+.main-title {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  left: 620px;
+}
+.main-content {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 600px;
+}
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 450px;
+  margin: auto;
+  width: 300px;
+  cursor: pointer;
+  z-index: 2;
+}
+.main-box {
+  background: #eee;
+  padding: 30px;
+  max-width: 800px;
+  width: 80%; /*부모 : body*/
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  left: 350px;
+  top: 30px;
+  text-align: center;
+  z-index: 1;
+}
+.text-input {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+/*해설*/
+.contact-form {
+  background: green;
+}
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  height: 500px;
+  max-width: 600px;
+  margin: auto;
+}
+.form-input {
+  width: 100%; /*width: 100%는 100% + 20px*/
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.w-50 {
+  width: 50%;
+  float: left;
+}
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+.yellow-button {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}

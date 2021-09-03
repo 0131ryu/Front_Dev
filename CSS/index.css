@@ -1,0 +1,29 @@
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  color: blue;
+  text-align: center;
+}
+.content {
+  text-align: center;
+}
+.job-first {
+  color: red;
+  text-align: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 12px 12px 2px 1px black;
+}

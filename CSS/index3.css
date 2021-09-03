@@ -1,0 +1,98 @@
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+.container {
+  width: 800px;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background: cornflowerblue;
+  display: inline-block;
+  vertical-align: top;
+  /* float: left; */
+}
+.right {
+  width: 80%;
+  height: 400px;
+  background: coral;
+  display: inline-block;
+  vertical-align: top; /*inline-block 사용 시 글자 정렬*/
+  /* float: left; */
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  clear: both;
+}
+/*연습*/
+.allBox {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+}
+.header-p {
+  float: left;
+  /* background-color: aqua; */
+}
+.content {
+  width: 70%;
+  height: 100%;
+  float: left;
+  clear: both; /*float: left 사용 시 <div>들 아래로 내려오게 함*/
+  /* background-color: aquamarine; */
+}
+.content-img {
+  width: 30%;
+  height: 160px;
+  float: left;
+}
+/*해설*/
+.container2 {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-profile {
+  width: 50px;
+  display: block;
+  float: left;
+}
+.blog-name {
+  float: left;
+}
+.blog-content {
+  width: 80%;
+  height: 200px;
+  /* background: #eee; */
+  float: left;
+}
+.blog-img {
+  width: 20%;
+  height: 200px;
+  /* background: yellow; */
+  float: left;
+}
