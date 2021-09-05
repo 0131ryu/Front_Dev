@@ -1,0 +1,34 @@
+.all-box {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.all-box-content {
+  width: 80%;
+  max-width: 800px;
+  float: left;
+}
+.profileImg {
+  width: 50px;
+  display: block;
+  float: left;
+  margin: 10px;
+}
+.all-box-profile {
+  position: relative;
+  top: 7px;
+}
+.all-box-write {
+  margin: 10px;
+  position: relative;
+  left: 5px;
+}
+.all-box-img {
+  width: 20%;
+  float: left;
+}
+.photoImg {
+  width: 200px;
+  height: 100px;
+}

@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* div {
+  box-sizing: border-box;
+} */
+/*메인 이미지*/
+.mainImg {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+.mainTitle {
+  position: relative;
+  bottom: 500px;
+  text-align: center;
+}
+.mainTitle > p {
+  font-size: 25px;
+}
+.mainTitle > button {
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.mainContent {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 300px;
+}
+/*글 목록*/
+.all-box {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 200px;
+}
+.all-box-content {
+  width: 80%;
+  max-width: 800px;
+  float: left;
+}
+.all-box-write > h3 {
+  cursor: pointer;
+}
+.profileImg {
+  width: 50px;
+  display: block;
+  float: left;
+  margin: 10px;
+}
+.all-box-profile {
+  position: relative;
+  top: 7px;
+}
+.all-box-write {
+  margin: 10px;
+  position: relative;
+  left: 5px;
+}
+.all-box-img {
+  width: 20%;
+  float: left;
+}
+.photoImg {
+  width: 200px;
+  height: 100px;
+}
+/*글 작성 부분*/
+.write-bg {
+  background: black;
+  padding: 30px;
+  position: relative;
+  top: 450px;
+}
+.write-forms {
+  background: white;
+  width: 80%;
+  height: 500px;
+  max-width: 800px; /*반응형 페이지 만들기의 핵심*/
+  padding: 30px;
+  margin: auto; /*폼을 중앙으로 오게 함*/
+}
+.write-forms > form {
+  position: relative;
+  bottom: 450px;
+}
+.write-title {
+  width: 100%;
+  float: left;
+}
+.write-title-input {
+  width: 98%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.write-form {
+  width: 100%;
+  float: left;
+}
+.write-form-ect {
+  width: 45%;
+  float: left;
+  margin-left: 25px;
+}
+.write-form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.write-content {
+  width: 100%;
+  float: left;
+}
+.write-content-input {
+  width: 98%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.write-form-send {
+  position: relative;
+  bottom: 400px;
+  width: 100%;
+  float: right;
+}
+.writeButton {
+  background: beige;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}
